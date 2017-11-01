@@ -7,8 +7,6 @@ function [coords] = location_name_to_lat_lon(loc_name)
     
     % DWD 17-1031
     
-    tic
-    
     filename = 'temp.json';
     API_key = ''; % add your API_key if desired
     URL = ['https://maps.googleapis.com/maps/api/geocode/json?address=' loc_name '&key=' API_key];
