@@ -12,7 +12,7 @@ function fog_of_war
     location_data_filename = 'Location History.mat';
     
     % Define geographic region of interest
-    center = 'Somerville_MA'; % define as [lat, long] or 'underscore_separated_plain_english_name'
+    center = 'Somerville_MA'; % define as [lat, lon] or 'underscore_separated_plain_english_name'
     zoom = 15; % 1: world, 5: continent, 10: city, 15:streets, 20: buildings
     
     % Display parameters
